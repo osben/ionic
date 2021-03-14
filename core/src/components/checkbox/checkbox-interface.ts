@@ -1,5 +1,5 @@
 
-export interface CheckboxChangeEventDetail {
-  value: any;
+export interface CheckboxChangeEventDetail<T> {
+  value: T;
   checked: boolean;
 }
